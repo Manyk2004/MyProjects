@@ -1,0 +1,221 @@
+body, html {
+  font-family: 'NunitoSans';
+  font-weight: 400;
+  text-align: left;
+  background: #23443D;
+  color: #E9ECEC;
+}
+
+/* -------------------HEADER----------------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 120px;
+  border-bottom: 1px solid #FFFFFF1A;
+}
+.header__list {
+  display: flex;
+}
+.header__list-item {
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: all 0.3s;
+}
+.header__list-item:hover {
+  color: #64B48B;
+}
+.header__list-item:last-child {
+  margin-right: 0;
+}
+.header__btn {
+  padding: 12px 48px;
+  background: #64B48B;
+  border-radius: 60px;
+  color: #23443D;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  transition: all 0.3s;
+}
+.header__btn:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------ADDRESS-------------------- */
+
+.address {
+  padding: 20px 0 24px 120px;
+  display: flex;
+}
+.address__part {
+  font-size: 13px;
+  line-height: 16px;
+  color: #64B48B;
+  margin-right: 8px;
+}
+.address__part:last-child {
+  margin-right: 0;
+}
+a.address__part {
+  text-decoration: underline transparent;
+  transition: all 0.3s;
+}
+a.address__part:hover {
+  text-decoration: underline
+}
+
+/* ---------------------TOP-------------------- */
+
+.top {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+.top__title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* --------------------CENTER------------------- */
+
+.center {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.center__title {
+  font-size: 28px;
+  line-height: 32px;
+  margin: 60px 0 20px 0;
+}
+.center__text {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.center__text span {
+  font-weight: 700;
+  color: #64B48B;
+  text-decoration: underline;
+}
+.center__accent-text {
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  padding: 28px 60px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgba(27, 160, 132, 0.8) 0%, rgba(29, 166, 59, 0.8) 100%);
+  margin-bottom: 20px;
+}
+.center__img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.center__img-text {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #FFFFFF80;
+  margin-top: 12px;
+}
+.center__list-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+.center__list {
+  margin-left: 20px;
+}
+.center__list-item {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 12px;
+  position: relative;
+}
+.center__list-item:last-child {
+  margin-bottom: 20px;
+}
+.center__list-item span {
+  font-weight: 400;
+}
+.center__list-item::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E9ECEC;
+}
+.center__table {
+  width: 100%;
+}
+.center__table-caption {
+  font-size: 28px;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.center__table-head {
+  font-size: 16px;
+  font-weight: 700;
+  color: #23443D;
+  background: #E9ECEC;
+}
+.center__table-head th {
+  padding: 20px;
+}
+.center__table-body {
+  background: #2A4F47;
+}
+.center__table-body td {
+  max-width: 15vw;
+  padding: 20px;
+}
+
+/* --------------------FOOTER------------------ */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 120px;
+  background: #0C0C20;
+}
+.footer__img {
+  margin-right: 12px;
+}
+.footer__img:last-child {
+  margin-right: 0;
+}
+.footer__col-place {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #7E818D;
+}
+.footer__col-tel {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 4px;
+  text-decoration: underline transparent;
+  transition: all 0.3s;
+}
+.footer__col-tel:hover {
+  text-decoration: underline;
+}
