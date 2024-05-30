@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Jost';
+  src: local("Jost"),
+    url(../fonts/Jost-MediumItalic.woff2) format('woff2'),
+    url(../fonts/Jost-MediumItalic.woff) format('woff'),
+    url(../fonts/Jost-MediumItalic.eot) format('eot');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jost';
+  src: local("Jost"),
+    url(../fonts/Jost-Medium.woff2) format('woff2'),
+    url(../fonts/Jost-Medium.woff) format('woff'),
+    url(../fonts/Jost-Medium.eot) format('eot');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jost';
+  src: local("Jost"),
+    url(../fonts/Jost-Regular.woff2) format('woff2'),
+    url(../fonts/Jost-Regular.woff) format('woff'),
+    url(../fonts/Jost-Regular.eot) format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jost';
+  src: local("Jost"),
+    url(../fonts/Jost-Light.woff2) format('woff2'),
+    url(../fonts/Jost-Light.woff) format('woff'),
+    url(../fonts/Jost-Light.eot) format('eot');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
