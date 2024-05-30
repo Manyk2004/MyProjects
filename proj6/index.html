@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Project 6</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <a href="/">
+        <img src="images/logo-header.svg" alt="Logo">
+      </a>
+      <div class="header__img-box">
+        <div class="heart">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 30C19.6868 30 19.3848 29.8841 19.1495 29.6734C18.2608 28.8794 17.4039 28.1331 16.6479 27.4749L16.6441 27.4714C14.4277 25.5415 12.5137 23.8747 11.182 22.2329C9.69337 20.3974 9 18.6571 9 16.7559C9 14.9088 9.61986 13.2046 10.7453 11.9573C11.8841 10.6951 13.4468 10 15.1459 10C16.4158 10 17.5788 10.4102 18.6025 11.2193C19.1191 11.6276 19.5874 12.1274 20 12.7104C20.4127 12.1274 20.8809 11.6276 21.3977 11.2193C22.4214 10.4102 23.5844 10 24.8543 10C26.5532 10 28.1161 10.6951 29.2549 11.9573C30.3803 13.2046 31 14.9088 31 16.7559C31 18.6571 30.3068 20.3974 28.8182 22.2327C27.4865 23.8747 25.5727 25.5413 23.3566 27.4711C22.5993 28.1304 21.7411 28.8778 20.8503 29.6738C20.6152 29.8841 20.313 30 20 30ZM15.1459 11.3168C13.811 11.3168 12.5847 11.8612 11.6926 12.8498C10.7872 13.8533 10.2886 15.2405 10.2886 16.7559C10.2886 18.3549 10.8701 19.7849 12.1741 21.3927C13.4343 22.9464 15.3084 24.5785 17.4785 26.4682L17.4798 26.4693L17.4838 26.4727C18.2426 27.1336 19.1029 27.8827 19.9982 28.6826C20.8988 27.8812 21.7604 27.1308 22.5207 26.469C22.5227 26.4673 22.5246 26.4656 22.5266 26.4638C24.6945 24.5758 26.5668 22.9453 27.826 21.3927C29.1299 19.7849 29.7114 18.3549 29.7114 16.7559C29.7114 15.2405 29.2128 13.8533 28.3074 12.8498C27.4155 11.8612 26.189 11.3168 24.8543 11.3168C23.8764 11.3168 22.9786 11.6345 22.1859 12.2608C21.4794 12.8193 20.9873 13.5252 20.6987 14.0191C20.5504 14.2731 20.2892 14.4248 20 14.4248C19.7108 14.4248 19.4496 14.2731 19.3013 14.0191C19.0129 13.5252 18.5208 12.8193 17.8141 12.2608C17.0214 11.6345 16.1236 11.3168 15.1459 11.3168Z"
+              fill="#242424" />
+            <path
+              d="M15.1459 11.3168C13.811 11.3168 12.5847 11.8612 11.6926 12.8498C10.7872 13.8533 10.2886 15.2405 10.2886 16.7559C10.2886 18.3549 10.8701 19.7849 12.1741 21.3927C13.4343 22.9464 15.3084 24.5785 17.4785 26.4682L17.4798 26.4693L17.4838 26.4727C18.2426 27.1336 19.1029 27.8827 19.9982 28.6826C20.8988 27.8812 21.7604 27.1308 22.5207 26.469L22.5266 26.4638C24.6945 24.5758 26.5668 22.9453 27.826 21.3927C29.1299 19.7849 29.7114 18.3549 29.7114 16.7559C29.7114 15.2405 29.2128 13.8533 28.3074 12.8498C27.4155 11.8612 26.189 11.3168 24.8543 11.3168C23.8764 11.3168 22.9786 11.6345 22.1859 12.2608C21.4794 12.8193 20.9873 13.5252 20.6987 14.0191C20.5504 14.2731 20.2892 14.4248 20 14.4248C19.7108 14.4248 19.4496 14.2731 19.3013 14.0191C19.0129 13.5252 18.5208 12.8193 17.8141 12.2608C17.0214 11.6345 16.1236 11.3168 15.1459 11.3168Z"
+              fill="white" />
+          </svg>
+        </div>
+        <img src="images/menu.svg" alt="Menu">
+      </div>
+    </div>
+    <div class="header__bottom">
+      <span class="header__text header__text--bold">Главная</span>
+      <span class="header__text">Безопасность</span>
+    </div>
+  </header>
+  <main class="main">
+    <section class="info">
+      <div class="info__left">
+        <h1 class="info__title">Памятка туриста, чтобы поездка прошла комфортно и приятно</h1>
+        <div class="info__text">Если вы планируете отправиться в путешествие, то оформление туристической страховки
+          является одним из основных пунктов подготовки. Полис необходим в случае неожиданной болезни или травмы в
+          поездке. Чтобы избежать финансовых проблем, связанных с другими рисками, такими как потеря багажа, отказ в
+          визе или отмена поездки по определённым причинам, турист может оформить полис дополнительного страхования.
+        </div>
+        <div class="info__text info__text--bold">Все программы страхования включают в себя покрытие лечения СOVID-19 в
+          соответствии с правилами страхования.</div>
+        <h2 class="info__list-title">Программа «Стандарт Плюс» включает в себя риски:</h2>
+        <ul class="info__list">
+          <li class="info__list-el">обострение хронических заболеваний и аллергии;</li>
+          <li class="info__list-el">экстренная стоматология;</li>
+          <li class="info__list-el">амбулаторное и стационарное лечение;</li>
+          <li class="info__list-el">солнечные ожоги;</li>
+          <li class="info__list-el">осложнение протекания беременности во время поездки (до 24 недели на дату
+            наступления страхового события);</li>
+          <li class="info__list-el">необходимость возвращения домой застрахованного лица, его сопровождающего или
+            несовершеннолетних детей;</li>
+          <li class="info__list-el">утрата или хищение документов;</li>
+          <li class="info__list-el">чрезвычайные ситуации, требующие визита третьего лица;</li>
+          <li class="info__list-el">теракты и стихийные бедствия;</li>
+          <li class="info__list-el">репатриация в случае смерти.</li>
+        </ul>
+      </div>
+      <div class="info__right">
+        <article class="info__right-el">
+          <div class="info__el-inner">
+            <div class="info__el-title">Покупка и оплата</div>
+            <div class="info__el-text">Изменить или аннулирировать</div>
+            <div class="info__el-text">Документы и чеки</div>
+            <div class="info__el-text">Специальные предложения</div>
+          </div>
+        </article>
+        <article class="info__right-el">
+          <div class="info__el-inner">
+            <div class="info__el-title">Перед поездкой</div>
+            <div class="info__el-text">Визы</div>
+            <div class="info__el-text">Страхование</div>
+            <div class="info__el-text">Памятка туристу</div>
+            <div class="info__el-text">Доплаты</div>
+          </div>
+        </article>
+        <a href="#" class="info__button">
+          <div class="info__btn-inner">Получить консультацию</div>
+        </a>
+        <div class="info__img-box">
+          <img src="images/img1.jpg" alt="Context photo">
+        </div>
+      </div>
+    </section>
+    <section class="files">
+      <div class="files__inner">
+        <div class="files__top">
+          <div class="files__box">
+            <div class="files__box-inner">
+              <img src="images/pdf.svg" alt="PDF">
+              <div class="files__box-info">
+                <div class="files__title">Памятка туристам</div>
+                <div class="files__text">Правила ввоза дронов / Таможенный контроль / Электронная анкета</div>
+              </div>
+            </div>
+          </div>
+          <div class="files__box">
+            <div class="files__box-inner">
+              <img src="images/pdf.svg" alt="PDF">
+              <div class="files__box-info">
+                <div class="files__title">Памятка «Медицинское страхование туристов»</div>
+                <div class="files__text">Особые условия / Спортивная страховка / Страхование от невыезда</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="files__bottom">
+          <a href="#" class="files__btn-box">
+            <div class="files__button">
+              <img src="images/call-white.svg" alt="">
+              +7 (495) 000 00 00
+            </div>
+          </a>
+          <div class="files__title">Контакты страховой компании</div>
+          <div class="files__text">круглосуточный номер телефона</div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <img src="images/img2.jpg" alt="Context image">
+      <div class="contacts__content">
+        <div class="contacts__col">
+          <div class="contacts__row">
+            <div class="contacts__text-thin">туристам</div>
+            <a href="mailto:travel@valinabali.ru" class="contacts__site">
+              <img src="images/mail.svg" alt="Mail">
+              travel@valinabali.ru
+            </a>
+            <a href="tel:88000000000" class="contacts__tel">
+              <img src="images/call.svg" alt="Tel">
+              8 800 000-00-00
+            </a>
+          </div>
+          <div class="contacts__row">
+            <div class="contacts__text-thin">офис</div>
+            <div class="contacts__text">Новосибирск, Ленинградский переулок, дом 43Б, офис 34</div>
+          </div>
+          <a href="#" class="contacts__btn-box">
+            <div class="contacts__button contacts__button--fill">Построить маршрут</div>
+          </a>
+        </div>
+        <div class="contacts__col">
+          <div class="contacts__row">
+            <div class="contacts__text-thin">сотрудничество</div>
+            <a href="mailto:partner@valinabali.ru" class="contacts__site">
+              <img src="images/mail.svg" alt="Mail">
+              partner@valinabali.ru
+            </a>
+            <a href="tel:88009999999" class="contacts__tel">
+              <img src="images/call.svg" alt="Tel">
+              8 800 999-99-99
+            </a>
+          </div>
+          <div class="contacts__row">
+            <div class="contacts__text-thin">время работы</div>
+            <div class="contacts__text">Ежедневно</div>
+            <div class="contacts__text">с 10:00 до 21:00 (GMT+7)</div>
+          </div>
+          <a href="#" class="contacts__btn-box">
+            <div class="contacts__button">Оставить заявку</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="cart">
+      <div class="cart__inner">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1923.073975450977!2d82.96071465782396!3d55.026862087760456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe5fea5162965%3A0xb84aa10752298aea!2z0YPQuy4g0JHQvtGA0LjRgdCwINCR0L7Qs9Cw0YLQutC-0LLQsCwgMTU1LCDQndC-0LLQvtGB0LjQsdC40YDRgdC6LCDQndC-0LLQvtGB0LjQsdC40YDRgdC60LDRjyDQvtCx0LsuLCA2MzAwMTc!5e0!3m2!1sru!2sru!4v1713609655921!5m2!1sru!2sru"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="/">
+        <img src="images/logo-footer.svg" alt="Logo">
+      </a>
+      <div class="footer__top-right">
+        <div class="footer__info">
+          <a href="tel:88000000000" class="footer_number">8 800 000-00-00</a>
+          <p class="footer__time">ежедневно с 10:00 до 21:00</p>
+        </div>
+        <div class="footer__img-box">
+          <a href="#">
+            <img class="footer__img" src="images/youtube.svg" alt="YouTube">
+          </a>
+          <a href="#">
+            <img class="footer__img" src="images/vk.svg" alt="VK">
+          </a>
+          <a href="#">
+            <img class="footer__img" src="images/tg.svg" alt="Telegramm">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__line"></div>
+    <div class="footer__bottom">
+      <div class="footer__col">
+        <div class="footer__col-content">
+          <div class="footer__col-title">о компании</div>
+          <ul class="footer__col-list">
+            <div class="footer__list-item">О турагентстве</div>
+            <div class="footer__list-item">Рассрочка и кредит</div>
+            <div class="footer__list-item">Галерея</div>
+          </ul>
+        </div>
+        <div class="footer_col-lang" title="Language">
+          <img src="images/language.svg" alt="English lang">
+          <span class="footer__text">English</span>
+        </div>
+      </div>
+      <div class="footer__col">
+        <div class="footer__content">
+          <div class="footer__col-title">виды отдыха</div>
+          <ul class="footer__col-list">
+            <div class="footer__list-item">Пляжный отдых</div>
+            <div class="footer__list-item">Отдых с детьми</div>
+            <div class="footer__list-item">Свадебное путешествие</div>
+            <div class="footer__list-item">Спокойный отдых</div>
+            <div class="footer__list-item">Экскурсионные туры</div>
+            <div class="footer__list-item">На берегу океана</div>
+            <div class="footer__list-item">Отдых в первый раз</div>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__col footer__col--down">
+        <ul class="footer__col-list">
+          <div class="footer__list-item">Все включено</div>
+          <div class="footer__list-item">Горнолыжный отдых</div>
+          <div class="footer__list-item">Дорогой отдых</div>
+          <div class="footer__list-item">Дайвинг и снорклинг</div>
+          <div class="footer__list-item">На островах</div>
+          <div class="footer__list-item">Отдых большой компанией</div>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-content">
+          <div class="footer__col-title">оплата онлайн</div>
+          <div class="footer__col-cards">
+            <a href="#" class="footer__col-card">
+              <img src="images/виза.svg" alt="Visa">
+            </a>
+            <a href="#" class="footer__col-card">
+              <img src="images/mastercard.svg" alt="Master Card">
+            </a>
+            <a href="#" class="footer__col-card">
+              <img src="images/мир.svg" alt="Mir">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-items">
+          <img class="footer__col-img" src="images/Google-Play.jpg" alt="Google-Play">
+          <img class="footer__col-img" src="images/App-Store.jpg" alt="App-Store">
+          <img class="footer__col-img" src="images/AppGallery.jpg" alt="AppGallery">
+          <img class="footer__col-img" src="images/ru-store.jpg" alt="ru-store">
+        </div>
+        <p class="footer__text">© 2024 VALINABALI</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+
+</html>
